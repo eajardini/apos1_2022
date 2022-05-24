@@ -1,7 +1,7 @@
-//Faça um algoritmo que solicite uma matriz 4x4.
-//Depois de colocar os números na matriz
+//FaÃ§a um algoritmo que solicite uma matriz 4x4.
+//Depois de colocar os nÃºmeros na matriz
 //solicitar qual linha e qual coluna
-//você deseja imprimir na tela.
+//vocÃª deseja imprimir na tela.
 
 
 
@@ -41,7 +41,7 @@ inicio
 
   para cont1 <- 1 ate 4 faca
     para cont2 <- 1 ate 4 faca
-      escreva("Informe o número: ")
+      escreva("Informe o nÃºmero: ")
       leia(md[cont1,cont2])
     fimpara
   fimpara
