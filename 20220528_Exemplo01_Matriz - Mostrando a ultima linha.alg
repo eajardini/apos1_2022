@@ -1,5 +1,5 @@
 //Criar um algoritmo que leia os elementos de uma matriz
-//inteira 3 x 3 e escreva os elementos da última linha.
+//inteira 3 x 3 e escreva os elementos da Ãºltima linha.
 //Percorra a matriz com o comando para.
 
 
@@ -38,7 +38,7 @@ inicio
 
   para linha <- 1 ate 3 faca
     para coluna <- 1 ate 3 faca
-      escreva("Informe o número: ")
+      escreva("Informe o nÃºmero: ")
       leia(md[linha,coluna])
     fimpara
   fimpara
