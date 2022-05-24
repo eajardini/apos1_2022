@@ -1,6 +1,6 @@
 //Desenvolva um programa que efetue a leitura de 4 valores
 //para uma matriz onde na primeira coluna deve ser armazenado o
-//RA do aluno e na segunda coluna deve ser armazenado a média
+//RA do aluno e na segunda coluna deve ser armazenado a mÃ©dia
 //final do aluno. Ao final imprimir os valores armazenados.
 
 
@@ -42,11 +42,11 @@ inicio
   para cont1 <- 1 ate 4 faca
       escreva("Informe o RA do aluno: ")
       leia(ra_media[cont1,1])
-      escreva("Informe a média do aluno: ")
+      escreva("Informe a mÃ©dia do aluno: ")
       leia(ra_media[cont1,2])
   fimpara
 
-escreval("RA   -    Média")
+escreval("RA   -    MÃ©dia")
 para cont1 <- 1 ate 4 faca
       escreva(ra_media[cont1,1], " - ")
       escreval(ra_media[cont1,2])
