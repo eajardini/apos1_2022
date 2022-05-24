@@ -1,7 +1,7 @@
-//Projete um algoritmo que peça valores de duas matrizes 2x2 e inclua o
-//resultado da diferença entre os elementos em uma terceira matriz
-//da mesma dimensão. Mostre as três matrizes no final.
-// Faça usando o comando para.
+//Projete um algoritmo que peÃ§a valores de duas matrizes 2x2 e inclua o
+//resultado da diferenÃ§a entre os elementos em uma terceira matriz
+//da mesma dimensÃ£o. Mostre as trÃªs matrizes no final.
+// FaÃ§a usando o comando para.
 
 
 
@@ -43,14 +43,14 @@ inicio
 
 para linha <- 1 ate 2 faca
    para coluna <- 1 ate 2 faca
-      escreva("Informe o número para a matriz 1 Linha: ", linha, " Coluna:",coluna,": ")
+      escreva("Informe o nÃºmero para a matriz 1 Linha: ", linha, " Coluna:",coluna,": ")
       leia(md1[linha,coluna])
    fimpara
 fimpara
 
 para linha <- 1 ate 2 faca
    para coluna <- 1 ate 2 faca
-      escreva("Informe o número para a matriz 2 Linha: ", linha, " Coluna:",coluna,": ")
+      escreva("Informe o nÃºmero para a matriz 2 Linha: ", linha, " Coluna:",coluna,": ")
       leia(md2[linha,coluna])
    fimpara
 fimpara
