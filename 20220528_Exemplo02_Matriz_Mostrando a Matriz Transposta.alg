@@ -1,4 +1,4 @@
-// Faça um algoritmo que leia uma matriz 2 x 3 real
+// FaÃ§a um algoritmo que leia uma matriz 2 x 3 real
 // e depois imprima a matriz original e depois gere e
 // imprima sua matriz transposta (matriz 3 x 2 equivalente).
 
@@ -47,7 +47,7 @@ var
 inicio
    para linha de 1 ate 2 faca
       para coluna de 1 ate 3 faca
-         escreva("Digite o número da linha ",linha, " e coluna ", coluna, ": ")
+         escreva("Digite o nÃºmero da linha ",linha, " e coluna ", coluna, ": ")
          leia(matriz[linha,coluna])
       fimpara
    fimpara
