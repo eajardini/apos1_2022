@@ -32,7 +32,7 @@ var
 inicio
    para linha <- 1 ate 5 faca
       para coluna <- 1 ate 5 faca
-         escreva("Digite o número da linha ",linha, " e coluna ", coluna, ": ")
+         escreva("Digite o nÃºmero da linha ",linha, " e coluna ", coluna, ": ")
          leia(matriz1[linha, coluna])
       fimpara
    fimpara
