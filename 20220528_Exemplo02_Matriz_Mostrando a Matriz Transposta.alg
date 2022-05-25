@@ -1,6 +1,7 @@
-// Faça um algoritmo que leia uma matriz 2 x 3 real
-// e depois imprima a matriz original e depois gere e
-// imprima sua matriz transposta (matriz 3 x 2 equivalente).
+// Faça um algoritmo que 
+// - leia uma matriz 2 x 3 de inteiros;
+// - imprima a matriz original e 
+// - gere e imprima sua matriz transposta (matriz 3 x 2 equivalente).
 
 
 
