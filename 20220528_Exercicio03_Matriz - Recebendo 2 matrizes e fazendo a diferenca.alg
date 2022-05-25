@@ -1,7 +1,10 @@
-//Projete um algoritmo que peça valores de duas matrizes 2x2 e inclua o
-//resultado da diferença entre os elementos em uma terceira matriz
-//da mesma dimensão. Mostre as três matrizes no final.
-// Faça usando o comando para.
+Projete um algoritmo que: 
+- peça ao usuário valores de duas matrizes 2x2 do tipo de dado inteiro ou real
+- calcule o resultado da diferença entre as duas matrizes e
+- armazene o resultado da diferença em uma terceira matriz
+- Imprima as três matrizes no final.
+
+Faça usando o comando para.
 
 
 
