@@ -9,6 +9,31 @@ a amostra em:
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 agua = 0
 
