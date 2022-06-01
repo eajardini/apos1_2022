@@ -12,6 +12,24 @@ até o usuário mandar parar.
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 inf = 1
 filho = 0
