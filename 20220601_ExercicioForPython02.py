@@ -4,6 +4,32 @@ O sistema deve calcular: a média das idades, a menor e a maior idade informada
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 idade = 0
 contador = 0
