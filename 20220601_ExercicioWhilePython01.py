@@ -7,6 +7,32 @@ OBS: O número 0(zero) não pode ser contado.
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 numero = 0
 maior = 0
