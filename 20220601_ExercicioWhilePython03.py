@@ -11,6 +11,23 @@ O sistema deve ficar solitando dados até que seja digitado N.
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 idade = 0
 t_apto = 0
