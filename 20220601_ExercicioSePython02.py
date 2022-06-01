@@ -11,6 +11,32 @@ em reais, do preço de se encher tanque de combustível.
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 tc = ""
 ct = 0
