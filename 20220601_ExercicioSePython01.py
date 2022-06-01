@@ -6,6 +6,31 @@ no mínimo 4 o aluno está de Exame e se a média for inferior a 4 o mesmo está
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 nome = ""
 siatuacao = ""
