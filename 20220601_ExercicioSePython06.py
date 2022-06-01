@@ -32,6 +32,28 @@ salário líquido mais a gratificação.
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 sal_min = 0.0
 sal_liquido = 0.0
