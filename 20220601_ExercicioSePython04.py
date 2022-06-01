@@ -13,6 +13,29 @@ informar que o nadador não possui uma categoria válida.
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 nome_nadador = ""
 categoria = ""
