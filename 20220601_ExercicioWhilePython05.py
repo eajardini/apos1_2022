@@ -20,6 +20,28 @@ Existe 3 candidatos a uma vaga no senado. Os votos serão
 
 '''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 c1 = 0
 c2 = 0
