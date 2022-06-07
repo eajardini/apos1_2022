@@ -1,6 +1,5 @@
 '''
-Criar um algoritmo que leia os elementos de uma matriz
-inteira 5 x 5 e escreva os elementos da diagonal principal
+Crie uma função que retorne o valor da expressão: 2/3 + 3/5 + 4/7 + 5/9 + … + n/m, para um valor de n definido pelo usuário. Verifique se o valor de n definido pelo usuário é positivo e, caso não seja, solicite outro valor até ser fornecido um valor positivo.
 
 '''
 
@@ -25,17 +24,22 @@ inteira 5 x 5 e escreva os elementos da diagonal principal
 
 
 
+def sequ(n):
+    aux1 = 2.0
+    aux2 = 3.0
+    soma = 0
 
-#variaveis
-mat =  [[0]*5, [0]*5, [0]*5, [0]*5, [0]*5] 
+    while aux1 <= n:
+        print (aux1,"/", aux2, "=", (aux1/aux2))
+        soma = soma + aux1/aux2
+        aux1 = aux1 + 1
+        aux2 = aux2 + 2
 
-#algoritmo
-for linha in range(0,5,1):
-  for coluna in range(0,5,1):
-    mat[linha][coluna] = int(input(f"Informe o número para a posição {linha} {coluna}: "))
+    return soma
 
-print("=====Mostrando a Diagonal Principal=====")                               
-for linha in range(0,5,1):
-  for coluna in range(0,5,1):
-    if(linha == coluna):
-        print(f"[{mat[linha][coluna]}]", end='')
+num = int(input('Digite um valor: '))
+while num < 0:
+    num = input('Digite um valor positivo: ')
+
+res = sequ(num)
+print ("A soma foi:" , str(res))

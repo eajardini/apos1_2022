@@ -1,37 +1,41 @@
 '''
-Criar uma matriz 3x3 de números inteiros, solicite números para preencher essa matriz e 
-depois mostre a mesma na tela.
+Faça um algoritmo que receba 5 números e ao final mostre quem é o
+maior e o menor número digitado.
+Deve-se fazer uma função para verificar o maior e 
+outra para verificar o menor.
+O menor e o maior número devem ser retornados para o programa
+principal para, então, serem mostrados.
 
 '''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #variaveis
-mat =  [[0]*3, [0]*3, [0]*3] 
+numero = 0
+maior_a = 0
+menor_a = 0
 
-#algoritmo
-for linha in range(0,3,1):
-  for coluna in range(0,3,1):
-    mat[linha][coluna] = int(input(f"Informe o número para a posição {linha} {coluna}: "))
-                                
-for linha in range(0,3,1):
-  for coluna in range(0,3,1):
-    print(f"[{mat[linha][coluna]}]", end='')
-  print()
+
+#funcao
+def f_maior(num, contador, maior):
+    if(contador == 1):
+        maior = num
+    else:
+        if(num >= maior):
+            maior = num
+    return maior
+       
+def f_menor(num, contador, menor):
+    if(contador == 1):
+        menor = num
+    else:
+        if(num <= menor):
+            menor = num
+    return menor
+
+#algoritmo principal
+for cont in range(1,5,1):
+    numero = int(input("Informe o número: "))
+    maior_a = f_maior(numero, cont, maior_a)
+    menor_a = f_menor(numero, cont, menor_a)
+
+print(f"O maior é: {maior_a}")
+print(f"O menor é: {menor_a}")
